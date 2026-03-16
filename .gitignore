@@ -1,0 +1,98 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+env/
+ENV/
+.venv/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Django
+# ===============================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Django migrations (optional)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Static files collected by Django
+staticfiles/
+
+# Media uploads
+media/
+
+# ===============================
+# MySQL / Database
+# ===============================
+data/
+*.sql
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+*.pid
+*.sock
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Node (if frontend used)
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Coverage / Testing
+# ===============================
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
